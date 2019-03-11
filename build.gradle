@@ -15,9 +15,6 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven { url "https://jcenter.bintray.com" }
-
-    //Collaborate auth repository
-    maven { url 'http://central-dpserver.caseware.cwi.local:8081/nexus/content/repositories/releases' }
 }
 
 dependencyManagement {
@@ -34,8 +31,7 @@ dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
     annotationProcessor "io.micronaut.configuration:micronaut-openapi"
-
-    compile 'com.caseware.cloud:cw-cloud-models:28.0'
+    
     compile "io.micronaut:micronaut-inject"
     compile "io.micronaut:micronaut-validation"
     compile "io.micronaut:micronaut-runtime"

@@ -1,6 +1,5 @@
 package com.caseware.m.entitiesapi;
 
-import com.caseware.cloud.server.models.generated.EntityType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import lombok.Getter;
